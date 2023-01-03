@@ -7,7 +7,7 @@ kaboom();
 
 
 loadSprite("tlo", "kartkaswiateczna69.png")
-loadSprite("balwanstefek", "bałwanstefan.png")
+loadSprite("balwanstefek", "balwanstefan.png")
 
 
 
