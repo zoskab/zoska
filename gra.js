@@ -9,6 +9,8 @@ kaboom();
 loadSprite("tlo", "kartkaswiateczna69.png")
 loadSprite("balwanstefek", "balwanstefan.png")
 
+loadSound("muzyka","doszopyhej.mp3")
+
 
 
 const background = add([
@@ -23,3 +25,8 @@ const player = add([
 	rotate(0),        
 	origin("center"), 
 ])
+
+onKeyPress("space", ()=>{
+	play("muzyka")
+
+})
