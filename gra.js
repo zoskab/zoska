@@ -26,7 +26,7 @@ const player = add([
 	origin("center"), 
 ])
 
-onKeyPress("space", ()=>{
+onKeyPress("space"), ()=>{
 	play("muzyka")
 
 })
