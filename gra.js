@@ -26,10 +26,14 @@ const player = add([
 	origin("center"), 
 ])
 
-onKeyPress("space", ()=>{
+add([
 	play("muzyka")
+])
 
-})
+// onKeyPress("space", ()=>{
+// 	play("muzyka")
+
+// })
 
 onUpdate(()=>{
 
