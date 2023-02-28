@@ -26,14 +26,32 @@ const player = add([
 	origin("center"), 
 ])
 
-add([
-	play("muzyka")
-])
+
+// play a looping soundtrack (check out AudioPlayOpt for more options)
+let music = play("muzyka", {
+    volume: 0.8,
+    loop: true
+})
+
+// using the handle to control (check out AudioPlay for more controls / info)
+// music.pause()
+//music.play()
+
+onKeyPress('space', ()=>{
+	play('muzyka')
+})
+
+
+//add([
+//	play("muzyka")
+
+//])
 
 // onKeyPress("space", ()=>{
 // 	play("muzyka")
 
 // })
+
 
 onUpdate(()=>{
 
